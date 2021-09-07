@@ -1,0 +1,19 @@
+.footer {
+  color: $color-white;
+  background-color: $color-black;
+  &__icons {
+    text-align: center;
+  }
+  .lni {
+    display: inline-block;
+    padding-top: 2rem;
+    &:not(:last-child) {
+      padding-right: 1rem;
+    }
+  }
+  & p {
+    margin: 1rem 0 2rem 0;
+    font-size: 1.2rem;
+    color: $color-grey-light-1;
+  }
+}

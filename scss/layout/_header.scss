@@ -1,0 +1,54 @@
+.header {
+  height: 68.2rem;
+  @include respond(phone) {
+    height: 60rem;
+  }
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  &__container {
+    height: 7rem;
+    background: $color-black;
+  }
+  .nav {
+    position: relative;
+  }
+  &__top {
+    margin-top: 8rem;
+    position: relative;
+    @include respond(tab-port) {
+      text-align: center;
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
+  &__text--image {
+    // margin-top: 10rem;
+    margin-bottom: 2rem;
+  }
+  &__logo-box {
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+  }
+  &__socials {
+    height: 11rem;
+    background-color: rgba($color-grey-dark-2, 0.4);
+  }
+}
+.hero__form {
+  background-color: $color-white;
+  width: 36.5rem !important;
+  position: absolute;
+  right: 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  @include respond(tab-port) {
+    display: none;
+  }
+}
+.form__text {
+  background: $color-grey-light-2;
+  padding: 1rem 0;
+}

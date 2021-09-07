@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Axit</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <nav class="nav row">
+          <div class="header__logo-box">
+            <img src="imgs/logo.png" alt="logo" class="header__logo" />
+          </div>
+
+          <div class="navigation">
+            <div class="navigation__container">
+              <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+              </label>
+
+              <div class="navigation__background">&nbsp;</div>
+            </div>
+            <div class="navigation__nav" id="nav__bar">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="#section-tab" class="navigation__link"
+                    ><span>01</span>Features</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="#section-process" class="navigation__link"
+                    ><span>02</span>About</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="#section-price" class="navigation__link"
+                    ><span>03</span>Pricing</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="#section-testimonials" class="navigation__link"
+                    ><span>04</span>Reviews</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="#section-contact" class="navigation__link"
+                    ><span>05</span>Contact</a
+                  >
+                </li>
+                <li class="navigation__item hidden">
+                  <a href="" class="navigation__link"><span></span>&nbsp;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row header__top">
+        <div class="col-1-of-2 heading__text-box">
+          <div class="header__text--image">
+            <img
+              src="imgs/logo-big.png"
+              alt=""
+              class="header__image"
+              width="175"
+            />
+          </div>
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Modern Axure Template</span>
+            <span class="heading-primary--main">for beautiful Prototype</span>
+          </h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+            accumsan et viverra justo commodo.
+          </p>
+          <a href="#" class="btn btn--white btn--animated">Download</a>
+        </div>
+        <form action="" class="col-1-of-2 hero__form">
+          <div class="u-center-text u-margin-bottom-medium form__text">
+            <h2 class="heading-secondary">
+              Try You <span class="hightlight">Free</span> Trial Today
+            </h2>
+          </div>
+          <div class="form__center">
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Name"
+                id="name"
+                required
+              />
+              <label for="name" class="form__label">Full Name</label>
+            </div>
+            <div class="form__group">
+              <input
+                type="email"
+                class="form__input"
+                placeholder="Email"
+                id="email"
+                required
+              />
+              <label for="email" class="form__label">Email</label>
+            </div>
+            <div class="form__group">
+              <input
+                type="password"
+                class="form__input"
+                placeholder="Password"
+                id="password"
+                required
+              />
+              <label for="password" class="form__label">Password</label>
+            </div>
+          </div>
+          <div class="form__button">
+            <button class="btn btn--pink u-center-text">Get Started</button>
+          </div>
+        </form>
+      </div>
+      <!-- Social media icons -->
+      <!-- <div class="header__socials">
+        <div class="row header__icons">
+          <div class="col-1-of-3">
+            <h3 class="heading-tertiary u-margin-bottom-small">Social Media</h3>
+            <p class="social-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet.
+            </p>
+          </div>
+          <div class="col-2-of-3">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fas fa-rss"></i>
+          </div>
+        </div>
+      </div> -->
+    </header>
+    <main>
+      <section class="section-tab" id="section-tab">
+        <div class="row">
+          <div class="col-1-of-6 tab-cont">
+            <div class="tab tab--1 tab__active" data-tab="1">Tab</div>
+            <div class="tab tab--2" data-tab="2">Tab</div>
+            <div class="tab tab--3" data-tab="3">Tab</div>
+          </div>
+
+          <div class="col-3-of-6">
+            <div class="tab__features">
+              <div
+                class="
+                  u-margin-bottom-big
+                  tab__feature tab__feature--1 tab__feature--active
+                "
+              >
+                <h2 class="heading-secondary u-margin-bottom-mod">
+                  Tabs with soft transitioning effect.
+                </h2>
+                <p class="tab-paragraph u-margin-bottom-small">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                  parturient montes.
+                </p>
+                <p class="tab-paragraph u-margin-bottom-medium">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet.
+                </p>
+
+                <a href="#" class="btn btn--secondary btn--animated"
+                  >Download</a
+                >
+              </div>
+
+              <div class="u-margin-bottom-big tab__feature tab__feature--2">
+                <h2 class="heading-secondary u-margin-bottom-mod">
+                  Tabs with soft transitioning effect. Dif 1
+                </h2>
+                <p class="tab-paragraph u-margin-bottom-small">
+                  This is a different content Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                  Proin gravida dolor sit amet lacus accumsan et viverra justo
+                  commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                  penatibus et magnis dis parturient montes.
+                </p>
+                <p class="tab-paragraph u-margin-bottom-medium">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet.
+                </p>
+
+                <a href="#" class="btn btn--secondary btn--animated"
+                  >Download</a
+                >
+              </div>
+
+              <div class="u-margin-bottom-big tab__feature tab__feature--3">
+                <h2 class="heading-secondary u-margin-bottom-mod">
+                  Tabs with soft transitioning effect. Dif 2
+                </h2>
+                <p class="tab-paragraph u-margin-bottom-small">
+                  This is also different Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                  gravida dolor sit amet lacus accumsan et viverra justo
+                  commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                  penatibus et magnis dis parturient montes.
+                </p>
+                <p class="tab-paragraph u-margin-bottom-medium">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet.
+                </p>
+
+                <a href="#" class="btn btn--secondary btn--animated"
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-2-of-6">
+            <div class="tab_image-box u-margin-top-small">
+              <img src="imgs/tab-image.png" alt="tabimage" class="tab__image" />
+            </div>
+          </div>
+          <!-- <div class="col-1-of-6">e</div>
+          <div class="col-1-of-6">t</div>
+          <div class="col-1-of-6">t</div> -->
+        </div>
+        <div class="section__sublist">
+          <div class="row">
+            <div class="col-1-of-2 section__sublist--image">
+              <img src="imgs/sublist.png" alt="sublist image" />
+            </div>
+            <div class="col-1-of-2 section__sublist--text">
+              <h3 class="heading-tertiary u-margin-bottom-medium">
+                Sub list section
+              </h3>
+              <p class="tab-paragraph u-margin-bottom-min">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo.
+              </p>
+
+              <div class="content">
+                <div class="section__sublist--icons">
+                  <img
+                    class="section__sublist--icon"
+                    src="imgs/cloud-computing.svg"
+                    alt="image"
+                  />
+                </div>
+
+                <div>
+                  <h4 class="heading-quantinary u-margin-bottom-xsmall">
+                    Title
+                  </h4>
+                  <p class="tab-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                </div>
+              </div>
+
+              <div class="content">
+                <div class="section__sublist--icons">
+                  <img
+                    class="section__sublist--icon"
+                    src="imgs/cloud-computing.svg"
+                    alt="image"
+                  />
+                </div>
+                <div>
+                  <h4 class="heading-quantinary u-margin-bottom-xsmall">
+                    Title
+                  </h4>
+                  <p class="tab-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section__standard">
+          <div class="row">
+            <div class="col-1-of-2">
+              <h3 class="heading-tertiary u-margin-bottom-medium">
+                Standard Picture Section
+              </h3>
+              <p class="tab-paragraph u-margin-bottom-small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo. Proin sodales pulvinar
+                tempor. Cum sociis natoque penatibus et magnis dis parturient
+                montes.
+              </p>
+              <p class="tab-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.
+              </p>
+            </div>
+            <div class="col-1-of-2 section__sublist--image">
+              <img src="imgs/des.png" alt="standard p" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-process" id="section-process">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            Why this is awesome
+          </h2>
+          <h4 class="small">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h4>
+        </div>
+        <div class="row u-center-text">
+          <div class="col-1-of-3">
+            <div class="section__process--icons u-margin-bottom-min">
+              <img
+                class="section__sublist--icon"
+                src="imgs/light-bulb.svg"
+                alt="image"
+              />
+            </div>
+            <h3 class="heading-tertiary u-margin-bottom-min">
+              Thoughtful Design
+            </h3>
+            <p class="tab-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra.
+            </p>
+          </div>
+          <div class="col-1-of-3">
+            <div class="section__process--icons u-margin-bottom-min">
+              <img
+                class="section__sublist--icon"
+                src="imgs/keyboard.svg"
+                alt="image"
+              />
+            </div>
+            <h3 class="heading-tertiary u-margin-bottom-min">Well Crafted</h3>
+            <p class="tab-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra.
+            </p>
+          </div>
+          <div class="col-1-of-3">
+            <div class="section__process--icons u-margin-bottom-min">
+              <img
+                class="section__sublist--icon"
+                src="imgs/flash.svg"
+                alt="image"
+              />
+            </div>
+            <h3 class="heading-tertiary u-margin-bottom-min">
+              Easy to Customize
+            </h3>
+            <p class="tab-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-price" id="section-price">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            Pricing Options
+          </h2>
+          <h4 class="small">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h4>
+        </div>
+        <div class="row section-price-cont">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side">
+                <div class="card__top">
+                  <h4 class="card__heading">
+                    <span class="card__heading--span">Basic</span>
+                  </h4>
+                  <div class="card__price">
+                    <p><span class="card__sign">$</span>0</p>
+                  </div>
+                  <p class="card__para">Free for life</p>
+                </div>
+
+                <div class="card__popular">&nbsp;</div>
+                <div class="card__details">
+                  <ul>
+                    <li>1 gb of space</li>
+                    <li>10 gb of bandwidth</li>
+                    <li>3 websites</li>
+                    <li>Basic customization</li>
+                    <li>Wordpress integration</li>
+                    <li>Email Support</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card higher">
+              <div class="card__side">
+                <div class="card__top">
+                  <h4 class="card__heading">
+                    <span class="card__heading--span">Professional</span>
+                  </h4>
+                  <div class="card__price">
+                    <p><span class="card__sign">$</span>19</p>
+                  </div>
+                  <p class="card__para">Monthly Payment</p>
+                </div>
+
+                <div class="card__popular">
+                  <span class="card__popular--text">Our Most Popular</span>
+                </div>
+                <div class="card__details">
+                  <ul>
+                    <li>5 gb of space</li>
+                    <li>50 gb of bandwidth</li>
+                    <li>12 websites</li>
+                    <li>Advanced customization</li>
+                    <li>Wordpress integration</li>
+                    <li>Email Support</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side">
+                <div class="card__top">
+                  <h4 class="card__heading">
+                    <span class="card__heading--span">Enterprise</span>
+                  </h4>
+                  <div class="card__price">
+                    <p><span class="card__sign">$</span>70</p>
+                  </div>
+                  <p class="card__para">Monthly Payment</p>
+                </div>
+
+                <div class="card__popular">&nbsp;</div>
+                <div class="card__details">
+                  <ul>
+                    <li>Unlimited space</li>
+                    <li>Unlimited bandwidth</li>
+                    <li>100 websites</li>
+                    <li>Advanced customization</li>
+                    <li>Wordpress integration</li>
+                    <li>24/7 customer Support</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials" id="section-testimonials">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            Why this is awesome
+          </h2>
+          <h4 class="small">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h4>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="testimonial">
+              <div class="carosel">
+                <div class="carosel__body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
+                </div>
+                <div class="carosel__footer"></div>
+              </div>
+              <div class="testimonial__footer">
+                <div class="testimonial__shape">
+                  <img
+                    src="https://via.placeholder.com/75"
+                    alt="test image"
+                    class="testimonial__image"
+                  />
+                </div>
+
+                <div class="testimonial__content">
+                  <p class="testimonial__name">Jeremy H.</p>
+                  <p class="testimonial__title">Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="testimonial">
+              <div class="carosel">
+                <div class="carosel__body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
+                </div>
+                <div class="carosel__footer"></div>
+              </div>
+              <div class="testimonial__footer">
+                <div class="testimonial__shape">
+                  <img
+                    src="https://via.placeholder.com/75"
+                    alt="test image"
+                    class="testimonial__image"
+                  />
+                </div>
+
+                <div class="testimonial__content">
+                  <p class="testimonial__name">John S.</p>
+                  <p class="testimonial__title">Freelancer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="testimonial">
+              <div class="carosel">
+                <div class="carosel__body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
+                </div>
+                <div class="carosel__footer"></div>
+              </div>
+              <div class="testimonial__footer">
+                <div class="testimonial__shape">
+                  <img
+                    src="https://via.placeholder.com/75"
+                    alt="test image"
+                    class="testimonial__image"
+                  />
+                </div>
+
+                <div class="testimonial__content">
+                  <p class="testimonial__name">Susan W.</p>
+                  <p class="testimonial__title">Photographer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-custom">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2
+            class="
+              heading-secondary
+              u-margin-bottom-medium
+              heading-secondary--white
+            "
+          >
+            STYLISH AXURE DESIGN
+          </h2>
+          <h4 class="small small--white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h4>
+        </div>
+        <div class="row">
+          <a href="#" class="btn btn--white btn--animated">Download</a>
+        </div>
+      </section>
+      <section class="section-contact" id="section-contact">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary u-margin-bottom-medium">Contact Us</h2>
+          <h4 class="small">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h4>
+        </div>
+        <div class="row">
+          <form action="" class="contact__form">
+            <div class="form__center">
+              <div class="col-1-of-2">
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Name"
+                    id="name_cont"
+                    required
+                  />
+                  <label for="name_cont" class="form__label">Full Name</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email"
+                    id="email_cont"
+                    required
+                  />
+                  <label for="email_cont" class="form__label">Email</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Subject"
+                    id="subject"
+                    required
+                  />
+                  <label for="subject" class="form__label">Subject</label>
+                </div>
+              </div>
+              <div class="col-1-of-2">
+                <div class="form__group">
+                  <textarea
+                    class="form__input"
+                    name="message"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="message"
+                  ></textarea>
+                  <label for="name" class="form__label">Message</label>
+                </div>
+              </div>
+            </div>
+            <div class="form__btn">
+              <button class="btn btn--pink btn--pink-cont u-center-text">
+                Get Started
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="row">
+        <div class="footer__icons">
+          <i class="lni lni-facebook-filled"></i>
+          <i class="lni lni-twitter-filled"></i>
+          <i class="lni lni-pinterest"></i>
+          <i class="lni lni-instagram-filled"></i>
+          <i class="lni lni-rss-feed"></i>
+          <i class="lni lni-behance-original"></i>
+          <p>&COPY; 2021 Adebayo Daniel</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

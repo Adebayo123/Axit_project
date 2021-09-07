@@ -1,0 +1,26 @@
+.tab {
+  padding: 5rem 3.5rem;
+  background-color: $color-grey-dark-3;
+  margin: 1px;
+  color: $color-white;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  &__active {
+    background-color: $color-secondary-dark;
+
+    img {
+      color: $color-secondary-dark;
+    }
+  }
+  @include respond(tab-port) {
+    float: left;
+    width: 31%;
+  }
+  &-cont {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    @include clearfix;
+    margin-bottom: 4rem !important;
+  }
+}

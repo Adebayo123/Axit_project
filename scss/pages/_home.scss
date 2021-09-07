@@ -1,0 +1,125 @@
+.section {
+  &-tab {
+    background-color: $color-grey-light-2;
+    padding: 14.5rem 0;
+    @include respond(tab-port) {
+      text-align: center;
+      padding-right: 4rem;
+      padding-left: 4rem;
+    }
+  }
+  &__sublist {
+    background-color: $color-grey-light-1;
+    padding: 6rem 0;
+    &--image {
+      overflow: hidden;
+    }
+    &--icons {
+      border: 2px solid $color-secondary-dark;
+      height: 4rem;
+      width: 5rem;
+      padding: 1rem;
+      border-radius: 50%;
+      margin-right: 3rem;
+    }
+  }
+  &-process {
+    background-color: $color-grey-light-1;
+    padding: 10rem 0;
+    @include respond(tab-port) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
+  &__standard {
+    padding: 14.5rem 0 0 0;
+  }
+  &__process--icons {
+    border: 2px solid $color-secondary-dark;
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 0 auto 3rem;
+  }
+  //   pricing section
+  &-price {
+    background-color: $color-grey-light-2;
+    padding: 14.5rem 0;
+
+    &-cont {
+      @include respond(tab-port) {
+        padding: 7rem;
+      }
+      @include respond(phone) {
+        padding: 4rem;
+      }
+    }
+  }
+  &-testimonials {
+    padding: 14.5rem 0;
+  }
+  &-custom {
+    background: linear-gradient(
+        rgba($color-black, 0.5),
+        rgba($color-black, 0.5)
+      ),
+      url('../imgs/custom.jpg');
+    text-align: center;
+    padding: 9rem 0;
+  }
+  &-contact {
+    padding: 9rem 0;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  @include respond(tab-port) {
+    justify-content: space-around;
+  }
+}
+.higher {
+  margin-top: -2rem;
+}
+
+.testimonial {
+  @include respond(tab-port) {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  &__footer {
+    @include clearfix;
+    margin-left: 2rem;
+  }
+  &__shape {
+    float: left;
+  }
+  &__image {
+    margin-right: 1.5rem;
+    border-radius: 50%;
+  }
+  &__content {
+    padding-top: 2.5rem;
+  }
+  &__name {
+    font-size: 2rem;
+  }
+  &__title {
+    font-size: 1.4rem;
+    color: $color-grey-dark-2;
+  }
+}
+.tab {
+  &__feature {
+    display: none;
+
+    &--active {
+      display: block !important;
+    }
+  }
+}
